@@ -54,7 +54,7 @@ if [ "$PURGE" = true ]; then
 fi
 echo ""
 read -p "Are you sure you want to continue? (y/n) " -n 1 -r
-echo
+echo ""
 if [[ ! $REPLY =~ ^[Yy]$ ]]; then
     echo "Uninstallation cancelled"
     exit 0
